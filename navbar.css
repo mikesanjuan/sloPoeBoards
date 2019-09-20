@@ -1,0 +1,105 @@
+/*CSS for navbar - lines 3-65*/
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: cursive;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbutton {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit
+}
+
+.navbar a:hover, .dropdown:hover .dropbutton {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}    
+
+/* CSS for Body of All Pages*/
+
+
+.page_title{
+  position: relative;
+  float: right;
+  margin-right: 60px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  
+  
+}    
+
+.image_and_details{
+    font-family: cursive;
+    font-size: larger;
+}    
+
+
+h4{
+        font-family: Tahoma, Geneva, sans-serif;
+
+}
+body {
+    background-color:#f7f6f4 ;
+    opacity: .9;
+}
+
+p{
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+li{
+    list-style-type: circle;
+    list-style-position: inside;
+    font-family: Tahoma, Geneva, sans-serif;
+
+}
+
+div img{
+    box-shadow: 2px 5px 5px 0px darkgray;
+    margin: 5%;
+}
